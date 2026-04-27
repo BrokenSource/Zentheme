@@ -6,13 +6,16 @@ runs:
 
     - uses: astral-sh/setup-uv@v7
 
-    - run: ln readme.md website/index.md || true
+    - run: uv venv
       shell: bash
 
     - run: uv pip install git+https://github.com/BrokenSource/Zentheme/
       shell: bash
 
-    - run: zensical build
+    - run: ln readme.md website/index.md || true
+      shell: bash
+
+    - run: uv run zensical build
       shell: bash
 
     - run: mv site _site
