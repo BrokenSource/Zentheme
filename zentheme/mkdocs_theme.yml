@@ -1,0 +1,45 @@
+extends: material
+variant: modern
+language: en
+
+font:
+  text: Inter
+  code: Cascadia Code
+
+icon:
+  repo: fontawesome/brands/github
+
+features:
+  - announce.dismiss
+  - content.code.copy
+  - content.footnote.tooltips
+  - content.tabs.link
+  - content.tooltips
+  - navigation.expand
+  - navigation.footer
+  - navigation.indexes
+  - navigation.instant.prefetch
+  - navigation.instant.progress
+  - navigation.instant
+  - navigation.path
+  - navigation.tabs
+  - navigation.top
+  - search.highlight
+  - toc.follow
+
+palette:
+  - media: "(prefers-color-scheme: light)"
+    primary: blue
+    accent: light-blue
+    scheme: default
+    toggle:
+      icon: lucide/sun
+      name: Switch to dark mode
+
+  - media: "(prefers-color-scheme: dark)"
+    primary: orange
+    accent: orange
+    scheme: slate
+    toggle:
+      icon: lucide/moon
+      name: Switch to light mode

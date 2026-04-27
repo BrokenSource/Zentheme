@@ -1,0 +1,16 @@
+[project]
+name         = "zentheme"
+version      = "1"
+license      = "MIT"
+readme       = "readme.md"
+classifiers  = ["Private :: Do Not Upload"]
+dependencies = [
+    "zensical",
+]
+
+[project.entry-points."mkdocs.themes"]
+zentheme = "zentheme"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
