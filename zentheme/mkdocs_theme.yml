@@ -6,9 +6,6 @@ font:
   text: Inter
   code: Cascadia Code
 
-icon:
-  repo: fontawesome/brands/github
-
 features:
   - announce.dismiss
   - content.code.copy
