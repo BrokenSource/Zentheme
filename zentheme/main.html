@@ -3,12 +3,8 @@
 {% block styles %}
   {{ super() }}
   <style>
-    body {
-      text-align: justify;
-    }
-
     h2 {
-      color: var(--md-accent-fg-color) !important;
+      color: color-mix(in srgb, var(--md-typeset-color) 70%, white) !important;
     }
 
     /* Spread content tabs to full width */
