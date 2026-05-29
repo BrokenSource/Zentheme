@@ -1,4 +1,6 @@
 name: zentheme
+description: Deploy a zensical website with BrokenSource commons
+
 runs:
   using: composite
   steps:
