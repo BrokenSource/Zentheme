@@ -1,11 +1,15 @@
 {% extends "base.html" %}
 
+{% block announce %}
+  <img class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/2764.svg" alt="❤️">
+  <b>&nbsp;Support</b> an <a href="https://tremeschin.com/about/support/"><b>underpaid</b></a> open source developer.
+{% endblock %}
+
 {% block styles %}
   {{ super() }}
   <style>
-    h2 {
-      color: color-mix(in srgb, var(--md-typeset-color) 70%, white) !important;
-    }
+    h2 {color: color-mix(in srgb, var(--md-typeset-color) 80%, white) !important}
+    h3 {color: color-mix(in srgb, var(--md-typeset-color) 65%, white) !important}
 
     /* Spread content tabs to full width */
     .tabbed-labels--linked label {
@@ -34,4 +38,3 @@
 
   </style>
 {% endblock %}
-

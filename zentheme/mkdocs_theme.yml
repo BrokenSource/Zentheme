@@ -6,6 +6,9 @@ font:
   text: Inter
   code: Cascadia Code
 
+icon:
+  logo: octicons/package-16
+
 features:
   - announce.dismiss
   - content.code.copy
