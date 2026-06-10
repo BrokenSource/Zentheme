@@ -6,7 +6,11 @@ readme       = "readme.md"
 classifiers  = ["Private :: Do Not Upload"]
 dependencies = [
     "zensical",
+    "tdewolff-minify==2.24.12",
 ]
+
+[project.scripts]
+zentheme = "zentheme.__main__:main"
 
 [project.entry-points."mkdocs.themes"]
 zentheme = "zentheme"

@@ -5,20 +5,6 @@ runs:
   using: composite
   steps:
     - uses: actions/checkout@v6
-
     - uses: astral-sh/setup-uv@v7
-
-    - run: uv venv
-      shell: bash
-
-    - run: uv pip install git+https://github.com/BrokenSource/Zentheme/
-      shell: bash
-
-    - run: ln readme.md website/index.md || true
-      shell: bash
-
-    - run: uv run zensical build
-      shell: bash
-
-    - run: mv site _site
+    - run: uvx --with git+https://github.com/BrokenSource/Zentheme/ zentheme
       shell: bash
