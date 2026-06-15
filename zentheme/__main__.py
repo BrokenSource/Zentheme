@@ -24,7 +24,7 @@ def main():
         ("*.html", "text/html"),
         ("*.css",  "text/css"),
         ("*.svg",  "image/svg+xml"),
-        ("*.js",   "application/javascript"),
+        # ("*.js",   "application/javascript"),
         ("*.json", "application/json"),
         ("*.xml",  "application/xml"),
     ):
