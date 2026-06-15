@@ -8,6 +8,8 @@ font:
 
 icon:
   logo: octicons/package-16
+  tag:
+    default: material/tag
 
 features:
   - announce.dismiss
@@ -30,7 +32,7 @@ features:
 
 palette:
   - media: "(prefers-color-scheme: light)"
-    primary: blue
+    primary: indigo
     accent: light-blue
     scheme: default
     toggle:
@@ -38,8 +40,8 @@ palette:
       name: Switch to dark mode
 
   - media: "(prefers-color-scheme: dark)"
-    primary: orange
-    accent: orange
+    primary: indigo
+    accent: deep-purple
     scheme: slate
     toggle:
       icon: lucide/moon
