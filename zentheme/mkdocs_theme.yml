@@ -31,6 +31,11 @@ features:
   - toc.follow
 
 palette:
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: lucide/sun-moon
+      name: Switch to light mode
+
   - media: "(prefers-color-scheme: light)"
     primary: indigo
     accent: light-blue
