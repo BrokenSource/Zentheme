@@ -36,7 +36,7 @@ def main():
             ), "utf-8")
 
     # Remove unwanted files from theme package
-    for unwanted in ("mkdocs_theme.yml", "__init__.py", "__main__.py"):
+    for unwanted in ("mkdocs_theme.yml", "__init__.py"):
         site.joinpath(unwanted).unlink(missing_ok=True)
 
     # Move to expected actions/upload-pages-artifact
