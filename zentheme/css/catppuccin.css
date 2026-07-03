@@ -229,6 +229,10 @@
   background-color: var(--ctp-mantle) !important;
 }
 
+[data-md-color-scheme^="catppuccin-"] .md-nav__link--active:hover {
+  background-color: var(--md-accent-fg-color--transparent) !important;
+}
+
 [data-md-color-scheme^="catppuccin-"] blockquote {
   border-left: .2rem solid var(--ctp-surface0) !important;
 }
@@ -342,8 +346,8 @@
 
 [data-md-color-scheme^="catppuccin-"] .md-typeset .md-button--primary,
 [data-md-color-scheme^="catppuccin-"] .md-typeset .md-button--primary:visited {
-  background-color: var(--ctp-mauve);
-  border-color: var(--ctp-mauve);
+  background-color: var(--ctp-sapphire);
+  border-color: var(--ctp-sapphire);
   color: var(--ctp-base);
 }
 
