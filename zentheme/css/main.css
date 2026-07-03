@@ -9,6 +9,11 @@ h3 {color: color-mix(in srgb, var(--md-typeset-color) 65%, white) !important}
     flex: 1;
 }
 
+/* Tabs shouldn't be too wide */
+.md-typeset .tabbed-labels--linked > label > a {
+    padding: 0 !important;
+}
+
 /* Less bold admonition titles */
 .md-typeset .admonition-title {
     font-weight: 450 !important;
@@ -31,6 +36,7 @@ details > summary {
     width: 100%;
 }
 
+/* Seamless header */
 .md-tabs {
     box-shadow: none;
 }
