@@ -39,15 +39,15 @@ palette:
   - media: "(prefers-color-scheme: light)"
     primary: indigo
     accent: light-blue
-    scheme: default
+    scheme: catppuccin-latte
     toggle:
       icon: lucide/sun
       name: Switch to dark mode
 
   - media: "(prefers-color-scheme: dark)"
     primary: indigo
-    accent: deep-purple
-    scheme: slate
+    accent: light-blue
+    scheme: catppuccin-macchiato
     toggle:
       icon: lucide/moon
       name: Switch to light mode
