@@ -6,5 +6,5 @@ runs:
   steps:
     - uses: actions/checkout@v7
     - uses: astral-sh/setup-uv@v8.2.0
-    - run: uvx --with git+https://github.com/BrokenSource/Pages/ pages-make
+    - run: uvx --from git+https://github.com/BrokenSource/Pages/ pages-make
       shell: bash
