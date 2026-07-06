@@ -4,7 +4,7 @@ description: Deploy a zensical website with BrokenSource commons
 runs:
   using: composite
   steps:
-    - uses: actions/checkout@v6
-    - uses: astral-sh/setup-uv@v7
-    - run: uvx --with git+https://github.com/BrokenSource/Zentheme/ pages-make
+    - uses: actions/checkout@v7
+    - uses: astral-sh/setup-uv@v8.2.0
+    - run: uvx --with git+https://github.com/BrokenSource/Pages/ pages-make
       shell: bash
